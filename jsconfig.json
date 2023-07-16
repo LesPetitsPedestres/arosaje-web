@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "es2020",
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": ["components/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/pages/*": ["pages/*"],
+      "@/plugins/*": ["plugins/*"],
+      "@/store/*": ["store/*"],
+      "@/assets/*": ["assets/*"],
+      "@/nuxt.config": ["nuxt.config.js"],
+      "@/server/*": ["server/*"],
+      "@/types/*": ["types/*"]
+    }
+  },
+  "exclude": ["node_modules", ".nuxt", "dist"]
+}
